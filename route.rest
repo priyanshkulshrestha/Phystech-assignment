@@ -1,0 +1,32 @@
+    
+GET http://localhost:3000/users/
+
+
+###
+GET http://localhost:3000/users/62823714e6167a9851f723c2
+
+
+###
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{
+    "name": "priyansh newi",
+    "userName": "kul.priyansh",
+    "age": 20,
+    "dob": "2002-05-13"
+}
+
+###
+DELETE  http://localhost:3000/users/62823714e6167a9851f723c2
+
+###
+PATCH  http://localhost:3000/users/62823714e6167a9851f723c2
+Content-Type: application/json
+
+{
+    "name": "priyansh_kul new",
+    "userName": "kul.priyansh",
+    "age": 20,
+    "dob": "2002-05-13"
+}
